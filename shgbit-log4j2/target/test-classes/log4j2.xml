@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Configuration有两个属性，分别是status 和 monitorInterval
+    status:用于设置log4j2自身内部的信息输出
+    monitorInterval:自动检测修改配置文件和重新配置本身，设置间隔秒
+-->
+<Configuration status="WARN" monitorInterval="30">
+    <!-- 先定义所有的appender -->
+    <Appenders>
+        <!--控制台的配置-->
+        <Console name="Console" target="SYSTEM_OUT">
+            <!-- 控制台知输出level及以上级别的信息(onMatch)，其他的直接拒绝(onMismatch)-->
+            <ThresholdFilter level="trace" onMatch="ACCEPT" onMismatch="DENY"/>
+            <!--输出日志的格式-->
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %logger{36} %L %M - %msg%xEx%n"/>
+        </Console>
+        
+	   <File name="MyFile" fileName="log/app.log">
+	      <PatternLayout>
+	        <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+	      </PatternLayout>
+	    </File>
+	    
+      <RollingFile name="RollingFile" fileName="logs/app.log" filePattern="logs/app-%d{MM-dd-yyyy}.log.gz"
+                 ignoreExceptions="false">
+      <PatternLayout>
+        <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+      </PatternLayout>
+      <TimeBasedTriggeringPolicy />
+    </RollingFile>
+ 
+    </Appenders>
+    <Loggers>
+        <!-- 建立一个默认的root的logger -->
+        <root level="trace">
+       	    <appender-ref ref="MyFile"/>
+            <appender-ref ref="RollingFile"/>
+            <appender-ref ref="Console"/>
+        </root>
+    </Loggers>
+</Configuration>

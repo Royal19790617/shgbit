@@ -1,0 +1,3 @@
+2019-02-24 18:41:41.766 [main] ERROR org.shgbit.service.log4j2Test.main() Line: 25 - Did it again!
+2019-02-24 18:41:41.769 [main] INFO  org.shgbit.service.log4j2Test.main() Line: 26 - 我是info信息
+2019-02-24 18:41:41.770 [main] WARN  org.shgbit.service.log4j2Test.main() Line: 28 - 我是warn信息

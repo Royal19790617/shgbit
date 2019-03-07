@@ -1,0 +1,3 @@
+2019-03-07 18:29:26.088 [main] INFO  main org.shgbit.service.log4j2Test.main() Line: 25 - 服务调用结束    我是info信息
+2019-03-07 18:29:26.096 [main] WARN  main org.shgbit.service.log4j2Test.main() Line: 26 - 服务调用开始    我是info信息
+2019-03-07 18:29:26.097 [main] ERROR main org.shgbit.service.log4j2Test.main() Line: 27 - 服务调用结束    我是info信息

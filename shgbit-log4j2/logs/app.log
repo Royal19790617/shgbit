@@ -1,0 +1,20 @@
+2019-03-07 15:37:58.572 [main] INFO  org.shgbit.log4j2.log4j2Test.main() Line: 25 - 我是info信息
+2019-03-07 16:35:52.084 [main] INFO  org.shgbit.log4j2.log4j2Test.main() Line: 24 - 我是info信息
+2019-03-07 16:48:54.962 [main] INFO  main org.shgbit.log4j2.log4j2Test.main() Line: 24 - 我是info信息
+2019-03-07 18:10:26.249 [main] INFO  main org.shgbit.log4j2.log4j2Test.main() Line: 24 - 我是info信息
+2019-03-07 18:11:19.578 [main] INFO  main org.shgbit.log4j2.log4j2Test.main() Line: 24 - 我是info信息
+2019-03-07 18:20:47.943 [main] INFO  main org.shgbit.log4j2.log4j2Test.main() Line: 25 - 服务调用开始
+2019-03-07 18:20:47.944 [main] WARN  main org.shgbit.log4j2.log4j2Test.main() Line: 26 - 服务调用开始
+2019-03-07 18:20:47.946 [main] ERROR main org.shgbit.log4j2.log4j2Test.main() Line: 27 - 服务调用开始
+2019-03-07 18:24:57.129 [main] INFO  main org.shgbit.log4j2.log4j2Test.main() Line: 25 - 服务调用结束---我是info信息
+2019-03-07 18:24:57.131 [main] WARN  main org.shgbit.log4j2.log4j2Test.main() Line: 26 - 服务调用开始---我是info信息
+2019-03-07 18:24:57.132 [main] ERROR main org.shgbit.log4j2.log4j2Test.main() Line: 27 - 服务调用结束---我是info信息
+2019-03-07 18:25:06.094 [main] INFO  main org.shgbit.log4j2.log4j2Test.main() Line: 25 - 服务调用结束---我是info信息
+2019-03-07 18:25:06.095 [main] WARN  main org.shgbit.log4j2.log4j2Test.main() Line: 26 - 服务调用开始---我是info信息
+2019-03-07 18:25:06.096 [main] ERROR main org.shgbit.log4j2.log4j2Test.main() Line: 27 - 服务调用结束---我是info信息
+2019-03-07 18:28:19.907 [main] INFO  main org.shgbit.log4j2.log4j2Test.main() Line: 25 - 服务调用结束 我是info信息
+2019-03-07 18:28:19.909 [main] WARN  main org.shgbit.log4j2.log4j2Test.main() Line: 26 - 服务调用开始 我是info信息
+2019-03-07 18:28:19.910 [main] ERROR main org.shgbit.log4j2.log4j2Test.main() Line: 27 - 服务调用结束 我是info信息
+2019-03-07 18:28:59.572 [main] INFO  main org.shgbit.log4j2.log4j2Test.main() Line: 25 - 服务调用结束    我是info信息
+2019-03-07 18:28:59.574 [main] WARN  main org.shgbit.log4j2.log4j2Test.main() Line: 26 - 服务调用开始    我是info信息
+2019-03-07 18:28:59.575 [main] ERROR main org.shgbit.log4j2.log4j2Test.main() Line: 27 - 服务调用结束    我是info信息
